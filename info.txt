@@ -1,1 +1,3 @@
 Hello DevOps!
+Learnign Git is fun!
+Learning Git is fun!
