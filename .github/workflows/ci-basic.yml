@@ -1,0 +1,13 @@
+name: CI Basic  # Name of your workflow
+
+on:
+  push:
+    branches:
+      - main  # Trigger only on pushes to 'main'
+
+jobs:
+  echo_hello:  # Job ID (can be anything)
+    runs-on: ubuntu-latest  # Runs on a fresh Linux VM
+    steps:
+      - name: Print Hello World  # Step name (for logs)
+        run: echo "🎉 Hello, DevOps from GitHub Actions!"
